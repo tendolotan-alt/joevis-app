@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ScrollView } from 'react-native';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import axios from 'axios';
-const API = "https://YOUR_BACKEND_URL_OR_TUNNEL";
+const API = "https://joevis-backend.onrender.com";
 
 export default function MenuScreen() {
   const [menus, setMenus] = useState([]);
@@ -23,4 +23,5 @@ export default function MenuScreen() {
       ))}
     </ScrollView>
   );
+
 }
