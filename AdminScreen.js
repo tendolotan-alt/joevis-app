@@ -4,7 +4,7 @@ import { TextInput, Button, Card, Title, Paragraph, HelperText } from 'react-nat
 import axios from 'axios';
 import * as ImagePicker from 'expo-image-picker';
 
-const API = "https://YOUR_BACKEND_URL_OR_TUNNEL";
+const API = "https://joevis-backend.onrender.com";
 const ADMIN_PW = "adminpass"; // same as backend env for quick start
 
 export default function AdminScreen() {
@@ -78,4 +78,5 @@ export default function AdminScreen() {
       ))}
     </ScrollView>
   );
+
 }
