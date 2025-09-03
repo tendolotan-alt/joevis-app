@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View } from 'react-native';
 import { TextInput, Button, HelperText } from 'react-native-paper';
 import axios from 'axios';
-const API = "https://YOUR_BACKEND_URL_OR_TUNNEL";
+const API = "https://joevis-backend.onrender.com";
 
 export default function SubscribeScreen() {
   const [name, setName] = useState('');
@@ -29,4 +29,5 @@ export default function SubscribeScreen() {
       {msg ? <HelperText type="info">{msg}</HelperText> : null}
     </View>
   );
+
 }
